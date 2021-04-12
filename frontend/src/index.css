@@ -1,0 +1,30 @@
+        .App {
+            display: flex;
+        }
+        
+        .top-nav {
+            background-color: #ffccc7;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: 2px solid white;
+            padding: 0 100px;
+        }
+        
+        .sidebar {
+            background-color: #ffccc7;
+            width: 200px;
+            height: 100vh;
+            margin-right: 20px;
+        }
+        
+        .nav-item {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            padding: 0px 20px;
+        }
+        
+        .nav-item:hover {
+            background-color: white;
+        }
