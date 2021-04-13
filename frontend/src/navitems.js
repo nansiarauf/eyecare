@@ -1,22 +1,34 @@
-import { FcHome, FcSettings, FcPrint } from "react-icons/fc";
+import {
+  FcHome,
+  FcSettings,
+  FcPrint,
+  FcSalesPerformance,
+  FcBarChart,
+  FcConferenceCall,
+} from "react-icons/fc";
 const navitems = [
   {
-    title: "Dashboard",
+    title: "HOME",
     link: "/",
     icon: <FcHome size={30} />,
   },
   {
-    title: "Dashboard",
+    title: "SALES",
     link: "/",
-    icon: <FcHome size={30} />,
+    icon: <FcSalesPerformance size={30} />,
   },
   {
-    title: "Dashboard",
+    title: "REPORTS",
     link: "/",
-    icon: <FcHome size={30} />,
+    icon: <FcBarChart size={30} />,
   },
   {
-    title: "Settings",
+    title: "USERS",
+    link: "/",
+    icon: <FcConferenceCall size={30} />,
+  },
+  {
+    title: "SETTINGS",
     link: "/",
     icon: <FcSettings size={30} />,
   },
